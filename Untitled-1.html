@@ -1,0 +1,125 @@
+<body>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jq-3.3.1/dt-1.10.20/datatables.min.css"/>
+ 
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/jq-3.3.1/dt-1.10.20/datatables.min.js"></script>
+
+
+<div>
+<table id="myTable">
+    <thead>
+        <tr>
+            <th></th>
+            <th>Header1</th>
+            <th>Header2</th>
+            <th>Header3</th>
+            <th>Header4</th>
+            <th>Header5</th>
+          </tr>
+    </thead>
+    <tbody>
+        <tr class="back1">
+            <td>Line1</td>
+            <td>43</td>
+            <td>43</td>
+            <td>43</td>
+            <td>43</td>
+            <td>43</td>
+          </tr>
+          <tr class="back2">
+            <td>Line2</td>
+            <td>43</td>
+            <td>43</td>
+            <td>43</td>
+            <td>43</td>
+            <td>43</td>
+          </tr>
+          <tr class="back1">
+            <td>Line3</td>
+            <td>43</td>
+            <td>43</td>
+            <td>43</td>
+            <td>43</td>
+            <td>43</td>
+          </tr>
+          <tr class="back2">
+            <td>Line4</td>
+            <td>43</td>
+            <td>43</td>
+            <td>43</td>
+            <td>43</td>
+            <td>43</td>
+          </tr>
+          <tr class="back1">
+            <td>Line5</td>
+            <td>43</td>
+            <td>43</td>
+            <td>43</td>
+            <td>43</td>
+            <td>43</td>
+          </tr>
+          <tr class="back2">
+            <td>Line6</td>
+            <td>43</td>
+            <td>43</td>
+            <td>43</td>
+            <td>43</td>
+            <td>43</td>
+          </tr>
+          <tr class="back1">
+            <td>Line7</td>
+            <td>43</td>
+            <td>43</td>
+            <td>43</td>
+            <td>43</td>
+            <td>43</td>
+          </tr>
+          <tr class="back2">
+            <td>Line8</td>
+            <td>43</td>
+            <td>43</td>
+            <td>43</td>
+            <td>43</td>
+            <td>43</td>
+          </tr>
+    </tbody>
+</table>
+</div>
+<script>
+    $(document).ready( function () {
+        $('#myTable').DataTable();
+    } );
+    </script>
+</body>
+
+
+
+<style>
+div{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+tr td:nth-child(1){
+    background-color: lightskyblue;
+    font-weight: bold;
+}
+
+th{
+    background-color: lightskyblue;
+    font-weight: bold;
+}
+
+td{
+    text-align: center;
+}
+
+.back1{
+    background-color: lightgray !important;
+}
+
+.back2{
+    background-color: rgb(173, 173, 173) !important;
+}
+
+
+</style>
